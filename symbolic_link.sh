@@ -16,11 +16,13 @@ ln -s ~/my_repos/dotfiles-centos/.git-completion.bash ~/.git-completion.bash
 ln -s ~/my_repos/dotfiles-centos/.git-prompt.sh ~/.git-prompt.sh
 ln -s ~/my_repos/dotfiles-centos/.gitconfig ~/.gitconfig
 
-echo "activating dot-files..."
 source ~/.bash_profile
 source ~/.bashrc
 source ~/.vimrc
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
+
+echo 'Please log out and log in to activate these dot-files...'
+echo 'Probably "reboot" is one of the best solutions.'
 
 # source ~/.gitconfig ←これはいらない。gitが勝手に読むので関係ない。
