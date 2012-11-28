@@ -6,7 +6,7 @@ export LC_MESSAGES='ja_JP.UTF-8'
 export HISTCONTROL=ignoreboth
 
 #よく使うコマンドは保存しない
-export HISTIGNORE="fg*:bg*:history*"
+#export HISTIGNORE="fg*:bg*:history*"
 
 export HISTSIZE=100000
 
@@ -40,7 +40,6 @@ export PS1='[\u@\H: \w]\n\$ '
 #White 	1;37
 
 alias lsa='ls -all'
-alias mi='open -a mi'
 alias grep='grep --color'
 alias vi='vim'
 
