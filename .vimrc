@@ -2,6 +2,7 @@ set autoindent
 set nocompatible
 set incsearch
 set number
+set paste
 set shiftwidth=4
 set showmatch
 set smartcase
