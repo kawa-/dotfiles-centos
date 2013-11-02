@@ -1,6 +1,6 @@
-export LANG=ja_JP.UTF-8
-export LC_ALL='ja_JP.UTF-8'
-export LC_MESSAGES='ja_JP.UTF-8'
+#export LANG=ja_JP.UTF-8
+#export LC_ALL='ja_JP.UTF-8'
+#export LC_MESSAGES='ja_JP.UTF-8'
 
 #空白を履歴に追記しない、重複履歴を保存しない
 export HISTCONTROL=ignoreboth
