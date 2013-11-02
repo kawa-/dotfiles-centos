@@ -12,9 +12,9 @@
 #    fi
 #}
 
-#if [ -f ~/.bashrc ] ; then
-#. ~/.bashrc
-#fi
+if [ -f ~/.bashrc ] ; then
+. ~/.bashrc
+fi
 
 ##
 # Your previous /Users/mk/.bash_profile file was backed up as /Users/mk/.bash_profile.macports-saved_2012-06-04_at_18:25:00
