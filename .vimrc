@@ -12,3 +12,6 @@ set nowrapscan
 set bs=indent,eol,start
 set history=50
 set ruler
+syntax on
+highlight Comment ctermfg=LightCyan
+set wrap
