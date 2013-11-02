@@ -16,6 +16,10 @@ if [ -f ~/.bashrc ] ; then
 . ~/.bashrc
 fi
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 ##
 # Your previous /Users/mk/.bash_profile file was backed up as /Users/mk/.bash_profile.macports-saved_2012-06-04_at_18:25:00
 ##
